@@ -12,7 +12,7 @@ function LoggedHeader() {
           </li>
           <Link to="/modulos">Cursos</Link>
           <Link to="/cases">Cases</Link>
-          <li>Ranking</li>
+          <Link to="/ranking">Ranking</Link>
         </ul>
       </nav>
       <div className="flex justify-center items-center gap-10">
