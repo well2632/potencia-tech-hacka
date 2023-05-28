@@ -1,28 +1,9 @@
+import Header from "../components/Header";
+
 function App() {
   return (
     <div className="min-h-screen 	" style={{ backgroundImage: "url(/img/bg1.png)" }}>
-      <header className="flex flex-row justify-between items-center text-white px-20 py-4">
-        <img src="/svg/logo.svg" alt="logo" />
-        <nav className="flex-1 flex justify-center items-center">
-          <ul className="flex flex-row gap-10 font-medium">
-            <li>Inicio</li>
-            <li>A Aura</li>
-            <li>Cursos</li>
-            <li>Cases</li>
-            <li>Ranking</li>
-            <li>Comunidade</li>
-          </ul>
-        </nav>
-        <div className="flex justify-center items-center gap-10">
-          <div className="flex flex-row gap-2 items-center">
-            <img src="/svg/user.svg" alt="icon" />
-            <span className="font-semibold"> Entrar</span>
-          </div>
-          <span className="rounded-md font-semibold py-2 px-4 border-[1px] border-[#00FFFF]">
-            Criar conta
-          </span>
-        </div>
-      </header>
+      <Header />
       <div className="flex flex-col justify-center items-center  mt-20 w-full gap-[40px]">
         <h1 className="text-center text-white text-6xl font-bold flex items-center justify-center w-7/12 leading-[56px]">
           Construindo um futuro tecnológico equitativo
