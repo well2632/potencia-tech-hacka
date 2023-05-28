@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
 function App() {
@@ -12,9 +13,12 @@ function App() {
           Explore o universo tecnológico de maneira acessível e transformadora. <br />A plataforma
           completa para impulsionar sua carreira na área de tecnologia.
         </span>
-        <button className="bg-[#5301A1] text-white py-4 px-10 rounded-md font-semibold">
+        <Link
+          to={"/dashboard"}
+          className="bg-[#5301A1] text-white py-4 px-10 rounded-md font-semibold"
+        >
           Iniciar minha jornada
-        </button>
+        </Link>
       </div>
     </div>
   );
