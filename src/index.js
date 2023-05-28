@@ -11,6 +11,7 @@ import Course from "./pages/Course";
 import Cases from "./pages/Cases";
 import Lesson from "./pages/Lesson";
 import Roadmap from "./pages/Roadmap";
+import Case from "./pages/Case";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "/cases",
     element: <Cases />,
+  },
+  {
+    path: "/cases/:Case",
+    element: <Case />,
   },
 ]);
 
