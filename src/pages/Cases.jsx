@@ -1,8 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
 import LoggedHeader from "../components/LoggedHeader";
-import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 function Cases() {
   return (
