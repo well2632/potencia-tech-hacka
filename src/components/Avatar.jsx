@@ -3,7 +3,7 @@ import { Tooltip } from "react-tooltip";
 
 function Avatar({ name, id }) {
   return (
-    <div>
+    <div className="w-[64px]">
       <img
         className="cursor-pointer"
         id={name}
