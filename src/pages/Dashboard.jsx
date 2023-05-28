@@ -11,6 +11,14 @@ function Dashboard() {
     slidesToShow: 4,
     slidesToScroll: 1,
   };
+
+  const settinsCases = {
+    dots: false,
+    arrows: true,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+  };
   return (
     <div
       className="object-top pb-20 max-w-full bg-contain bg-no-repeat w-screen overflow-x-hidden"
@@ -22,10 +30,10 @@ function Dashboard() {
           <div className="flex flex-col justify-center items-center gap-8">
             <div className="relative">
               <img src="/img/avatarfull.png" alt="avatar user" className="brightness-150" />
-              <div className="flex flex-row items-center justify-center gap-4 absolute bottom-0 w-full p-4 bg-[rgba(0,0,0,.5)]">
-                <img src="/svg/Behance.svg" alt="behace" />
-                <img src="/svg/GitHub.svg" alt="behace" />
-                <img src="/svg/Linkedin.svg" alt="behace" />
+              <div className="flex flex-row items-center justify-center gap-6 absolute bottom-0 w-full p-4 bg-[rgba(0,0,0,.5)]">
+                <img src="/svg/Behance.svg" alt="behace" className="w-[28px]" />
+                <img src="/svg/GitHub.svg" alt="behace" className="w-[28px]" />
+                <img src="/svg/Linkedin.svg" alt="behace" className="w-[28px]" />
               </div>
             </div>
             <button className="rounded-md font-semibold py-2 px-12 border-[1px] border-[#00FFFF] text-white">
@@ -82,19 +90,68 @@ function Dashboard() {
         <h4 className="text-white font-semibold">Continuar estudando</h4>
         <Slider {...settings}>
           <div className=" flex items-center justify-center">
-            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-gray-300 h-[200px]"></div>
+            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-[#D9D9D9] opacity-10 h-[200px]"></div>
           </div>
           <div className=" flex items-center justify-center">
-            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-gray-300 h-[200px]"></div>
+            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-[#D9D9D9] opacity-10 h-[200px]"></div>
           </div>
           <div className=" flex items-center justify-center">
-            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-gray-300 h-[200px]"></div>
+            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-[#D9D9D9] opacity-10 h-[200px]"></div>
           </div>
           <div className=" flex items-center justify-center">
-            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-gray-300 h-[200px]"></div>
+            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-[#D9D9D9] opacity-10 h-[200px]"></div>
           </div>
           <div className=" flex items-center justify-center">
-            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-gray-300 h-[200px]"></div>
+            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-[#D9D9D9] opacity-10 h-[200px]"></div>
+          </div>
+        </Slider>
+      </div>
+      <div className="flex flex-col gap-8 text-2xl mt-24 px-20">
+        <h4 className="text-white font-semibold">Você pode gostar também</h4>
+        <Slider {...settings}>
+          <div className=" flex items-center justify-center">
+            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-[#D9D9D9] opacity-10 h-[200px]"></div>
+          </div>
+          <div className=" flex items-center justify-center">
+            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-[#D9D9D9] opacity-10 h-[200px]"></div>
+          </div>
+          <div className=" flex items-center justify-center">
+            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-[#D9D9D9] opacity-10 h-[200px]"></div>
+          </div>
+          <div className=" flex items-center justify-center">
+            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-[#D9D9D9] opacity-10 h-[200px]"></div>
+          </div>
+          <div className=" flex items-center justify-center">
+            <div className=" w-10/12 m-auto rounded flex items-center justify-center bg-[#D9D9D9] opacity-10 h-[200px]"></div>
+          </div>
+        </Slider>
+      </div>
+      <div className="flex flex-col gap-8 text-2xl mt-24 px-20">
+        <h4 className="text-white font-semibold">Cases no seu perfil</h4>
+        <Slider {...settinsCases}>
+          <div className=" flex items-center justify-center">
+            <div className=" w-10/12 m-auto rounded flex items-end justify-center bg-white/10  h-[200px]">
+              <span className="text-sm text-white p-4 bg-black/20">
+                Descrição do projeto Descrição do projetoDescrição do projeto Descrição do projeto
+                Ver mais
+              </span>
+            </div>
+          </div>
+          <div className=" flex items-center justify-center">
+            <div className=" w-10/12 m-auto rounded flex items-end justify-center bg-white/10  h-[200px]">
+              <span className="text-sm text-white p-4 bg-black/20">
+                Descrição do projeto Descrição do projetoDescrição do projeto Descrição do projeto
+                Ver mais
+              </span>
+            </div>
+          </div>{" "}
+          <div className=" flex items-center justify-center">
+            <div className=" w-10/12 m-auto rounded flex items-end justify-center bg-white/10  h-[200px]">
+              <span className="text-sm text-white p-4 bg-black/20">
+                Descrição do projeto Descrição do projetoDescrição do projeto Descrição do projeto
+                Ver mais
+              </span>
+            </div>
           </div>
         </Slider>
       </div>
