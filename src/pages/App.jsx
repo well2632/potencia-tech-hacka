@@ -13,22 +13,27 @@ function App() {
             <li>Comunidade</li>
           </ul>
         </nav>
-        <div className="flex justify-center items-center gap-6">
-          <span className="font-semibold">Entrar</span>
+        <div className="flex justify-center items-center gap-10">
+          <div className="flex flex-row gap-2 items-center">
+            <img src="/svg/user.svg" alt="icon" />
+            <span className="font-semibold"> Entrar</span>
+          </div>
           <span className="rounded-md font-semibold py-2 px-4 border-[1px] border-[#00FFFF]">
             Criar conta
           </span>
         </div>
       </header>
       <div className="flex flex-col justify-center items-center  mt-20 w-full gap-[40px]">
-        <h1 className="text-center text-white text-5xl font-bold flex items-center justify-center w-7/12 leading-[56px]">
+        <h1 className="text-center text-white text-6xl font-bold flex items-center justify-center w-7/12 leading-[56px]">
           Construindo um futuro tecnológico equitativo
         </h1>
         <span className="text-white text-center font-light">
           Explore o universo tecnológico de maneira acessível e transformadora. <br />A plataforma
           completa para impulsionar sua carreira na área de tecnologia.
         </span>
-        <button>Iniciar minha jornada</button>
+        <button className="bg-[#5301A1] text-white py-4 px-10 rounded-md font-semibold">
+          Iniciar minha jornada
+        </button>
       </div>
     </div>
   );
