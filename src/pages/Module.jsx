@@ -67,15 +67,30 @@ function Module() {
             <Link
               to={"HTML-Tags-básicas"}
               className="bg-[#D9D9D9]/20 w-full h-[120px] rounded bg-cover bg-center"
-              style={{ backgroundImage: module === "Front-end" ? "url(/img/html.png)" : "none" }}
+              style={{ backgroundImage: module === "Front-end" ? "url(/img/c-html.png)" : "none" }}
             ></Link>
-            <div className="bg-[#D9D9D9]/20 w-full h-[120px] rounded"></div>
-            <div className="bg-[#D9D9D9]/20 w-full h-[120px] rounded"></div>
+            <div
+              className=" w-full h-[120px] rounded bg-cover bg-center"
+              style={{ backgroundImage: "url(/img/c-git.png)" }}
+            ></div>
+            <div
+              className=" w-full h-[120px] rounded bg-cover bg-center"
+              style={{ backgroundImage: "url(/img/c-internet.png)" }}
+            ></div>
           </div>
           <div className="flex flex-row justify-between  gap-4">
-            <div className="bg-[#D9D9D9]/20 w-full h-[120px] rounded"></div>
-            <div className="bg-[#D9D9D9]/20 w-full h-[120px] rounded"></div>
-            <div className="bg-[#D9D9D9]/20 w-full h-[120px] rounded"></div>
+            <div
+              className=" w-full h-[120px] rounded bg-cover bg-center"
+              style={{ backgroundImage: "url(/img/c-javascript.png)" }}
+            ></div>{" "}
+            <div
+              className=" w-full h-[120px] rounded bg-cover bg-center"
+              style={{ backgroundImage: "url(/img/c-css.png)" }}
+            ></div>{" "}
+            <div
+              className=" w-full h-[120px] rounded bg-cover bg-center"
+              style={{ backgroundImage: "url(/img/c-npm.png)" }}
+            ></div>{" "}
           </div>
           <span className="w-full px-2 text-end font-semibold text-white cursor-pointer">
             Ver mais

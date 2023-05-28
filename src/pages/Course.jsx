@@ -39,7 +39,7 @@ function Course() {
           </button>
         </div>
         <div className="flex flex-col gap-6 mt-10">
-          <h4 className="text-white text-3xl font-bold">{course}</h4>
+          <h4 className="text-white text-3xl font-bold">HTML Básico</h4>
           <span className="text-white">
             Descubra o fascinante mundo do Front-End: torne-se um mestre da criação visual e
             interativa na web! Aprenda as habilidades essenciais para projetar e desenvolver
@@ -64,7 +64,7 @@ function Course() {
           </div>
         </div>
         <div className="flex flex-col gap-6 mt-20">
-          <h4 className="text-white text-3xl font-bold">Cursos em vídeo</h4>
+          <h4 className="text-white text-3xl font-bold">Aulas</h4>
           <div className="flex flex-row justify-between  gap-4">
             <Link
               className="bg-[#D9D9D9]/20 w-full h-[120px] rounded bg-center bg-cover"

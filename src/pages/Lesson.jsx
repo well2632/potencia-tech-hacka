@@ -29,10 +29,10 @@ function Lesson() {
           </h4>
           <div className="flex justify-between items-start gap-10">
             <div className="flex flex-col items-center justify-center w-7/12">
-              <div className="flex flex-col w-full gap-4 items-center justify-center  h-[400px] rounded bg-[#D9D9D9]/10">
-                <img alt="play" className="max-w-[64px] cursor-pointer" src="/svg/play.svg"></img>
-                <span className="text-white">Vídeo indisponível durante hackathon </span>
-              </div>
+              <div
+                className="flex flex-col w-full gap-4 cursor-pointer items-center justify-center  h-[400px] rounded bg-[#D9D9D9]/10 bg-cover bg-no-repeat bg-center"
+                style={{ backgroundImage: "url(/img/video-aura.png)" }}
+              ></div>
               <div className="flex justify-between items-center gap-2 text-white mt-4">
                 <div className="flex items-center justify-center gap-2 py-2 px-4 bg-[#474747]/20 rounded-full">
                   <img alt="star icon" src="/svg/star.svg" />

@@ -6,7 +6,7 @@ function AreasIcon({ course, id, image_path, to_path }) {
   return (
     <Link to={to_path || "#"} className="cursor-pointer">
       <div
-        className="rounded-full w-[100px] h-[100px] bg-[#D9D9D9]/20 bg-cover"
+        className="rounded-full w-[100px] h-[100px] bg-[#D9D9D9]/20 bg-cover bg-center"
         id={id}
         style={{ backgroundImage: image_path || "none" }}
       ></div>
