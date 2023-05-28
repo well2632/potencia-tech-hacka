@@ -45,7 +45,7 @@ function Dashboard() {
           <div className="flex flex-col gap-4">
             <h2 className="text-white text-4xl font-bold mt-10">
               Bem vindo de
-              <br /> volta, Marcos!
+              <br /> volta, Tatiana!
             </h2>
             <div>
               <h4 className="text-2xl text-[#00FFFF]">Pontuação: 120XP</h4>
