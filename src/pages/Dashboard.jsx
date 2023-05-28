@@ -2,6 +2,7 @@ import React from "react";
 import LoggedHeader from "../components/LoggedHeader";
 import Avatar from "../components/Avatar";
 import Slider from "react-slick";
+import Footer from "../components/Footer";
 
 function Dashboard() {
   const settings = {
@@ -21,7 +22,7 @@ function Dashboard() {
   };
   return (
     <div
-      className="object-top pb-20 max-w-full bg-contain bg-no-repeat w-screen overflow-x-hidden"
+      className="object-top max-w-full bg-contain bg-no-repeat w-screen"
       style={{ backgroundImage: "url(/img/smoke.png)" }}
     >
       <LoggedHeader />
@@ -155,6 +156,7 @@ function Dashboard() {
           </div>
         </Slider>
       </div>
+      <Footer />
     </div>
   );
 }

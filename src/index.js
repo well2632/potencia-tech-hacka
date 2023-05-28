@@ -3,17 +3,27 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./pages/App";
 import Dashboard from "./pages/Dashboard";
+import Courses from "./pages/Modules";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Course from "./pages/Module";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Dashboard />,
+    element: <App />,
   },
   {
     path: "/dashboard",
-    element: <App />,
+    element: <Dashboard />,
+  },
+  {
+    path: "/modulos",
+    element: <Courses />,
+  },
+  {
+    path: "/modulos/:module",
+    element: <Course />,
   },
 ]);
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -17,7 +18,9 @@ function Header() {
       <div className="flex justify-center items-center gap-10">
         <div className="flex flex-row gap-2 items-center">
           <img src="/svg/user.svg" alt="icon" />
-          <span className="font-semibold"> Entrar</span>
+          <Link to="/dashboard" className="font-semibold">
+            Entrar
+          </Link>
         </div>
         <span className="rounded-md font-semibold py-2 px-4 border-[1px] border-[#00FFFF]">
           Criar conta
