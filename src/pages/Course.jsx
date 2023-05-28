@@ -63,7 +63,11 @@ function Course() {
         <div className="flex flex-col gap-6 mt-20">
           <h4 className="text-white text-3xl font-bold">Cursos em vídeo</h4>
           <div className="flex flex-row justify-between  gap-4">
-            <div className="bg-[#D9D9D9]/20 w-full h-[120px] rounded"></div>
+            <Link
+              className="bg-[#D9D9D9]/20 w-full h-[120px] rounded bg-center bg-cover"
+              style={{ backgroundImage: "url(/img/html-aula01.webp)" }}
+              to={"aula"}
+            ></Link>
             <div className="bg-[#D9D9D9]/20 w-full h-[120px] rounded"></div>
             <div className="bg-[#D9D9D9]/20 w-full h-[120px] rounded"></div>
           </div>

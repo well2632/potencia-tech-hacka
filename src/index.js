@@ -9,6 +9,8 @@ import Modules from "./pages/Modules";
 import Module from "./pages/Module";
 import Course from "./pages/Course";
 import Cases from "./pages/Cases";
+import Lesson from "./pages/Lesson";
+import Roadmap from "./pages/Roadmap";
 
 const router = createBrowserRouter([
   {
@@ -32,8 +34,16 @@ const router = createBrowserRouter([
     element: <Course />,
   },
   {
+    path: "/modulos/:module/:course/aula",
+    element: <Lesson />,
+  },
+  {
     path: "/cases",
     element: <Cases />,
+  },
+  {
+    path: "/roadmap",
+    element: <Roadmap />,
   },
 ]);
 
