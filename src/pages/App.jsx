@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="min-h-screen" style={{ backgroundImage: "/img/bg1.png" }}>
+    <div className="min-h-screen 	" style={{ backgroundImage: "url(/img/bg1.png)" }}>
       <header className="flex flex-row justify-between items-center text-white px-20 py-4">
         <img src="/svg/logo.svg" alt="logo" />
         <nav className="flex-1 flex justify-center items-center">
@@ -20,9 +20,16 @@ function App() {
           </span>
         </div>
       </header>
-      <h1 className="mt-10 text-white text-4xl font-bold flex items-center justify-center">
-        Construindo um futuro tecnológico equitativo
-      </h1>
+      <div className="flex flex-col justify-center items-center  mt-20 w-full gap-[40px]">
+        <h1 className="text-center text-white text-5xl font-bold flex items-center justify-center w-7/12 leading-[56px]">
+          Construindo um futuro tecnológico equitativo
+        </h1>
+        <span className="text-white text-center font-light">
+          Explore o universo tecnológico de maneira acessível e transformadora. <br />A plataforma
+          completa para impulsionar sua carreira na área de tecnologia.
+        </span>
+        <button>Iniciar minha jornada</button>
+      </div>
     </div>
   );
 }
