@@ -4,7 +4,12 @@ import { Tooltip } from "react-tooltip";
 function Avatar({ name, id }) {
   return (
     <div>
-      <img className="cursor-pointer" id={name} src={`/svg/avatar${id}.svg`} />
+      <img
+        className="cursor-pointer"
+        id={name}
+        src={`/svg/avatar${id}.svg`}
+        alt={`avatar ${name}`}
+      />
       <Tooltip
         anchorSelect={`#${name}`}
         place="bottom"
