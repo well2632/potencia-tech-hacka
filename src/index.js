@@ -3,10 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./pages/App";
 import Dashboard from "./pages/Dashboard";
-import Courses from "./pages/Modules";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Course from "./pages/Module";
+import Modules from "./pages/Modules";
+import Module from "./pages/Module";
+import Course from "./pages/Course";
+import Cases from "./pages/Cases";
 
 const router = createBrowserRouter([
   {
@@ -19,11 +21,19 @@ const router = createBrowserRouter([
   },
   {
     path: "/modulos",
-    element: <Courses />,
+    element: <Modules />,
   },
   {
     path: "/modulos/:module",
+    element: <Module />,
+  },
+  {
+    path: "/modulos/:module/:course",
     element: <Course />,
+  },
+  {
+    path: "/cases",
+    element: <Cases />,
   },
 ]);
 
