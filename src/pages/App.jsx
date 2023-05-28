@@ -2,7 +2,7 @@ function App() {
   return (
     <div className="min-h-screen" style={{ backgroundImage: "/img/bg1.png" }}>
       <header className="flex flex-row justify-between items-center text-white px-20 py-4">
-        <img src="/svg/logo.svg" />
+        <img src="/svg/logo.svg" alt="logo" />
         <nav className="flex-1 flex justify-center items-center">
           <ul className="flex flex-row gap-10 font-medium">
             <li>Inicio</li>
