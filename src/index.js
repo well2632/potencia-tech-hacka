@@ -34,16 +34,16 @@ const router = createBrowserRouter([
     element: <Course />,
   },
   {
+    path: "/modulos/:module/roadmap",
+    element: <Roadmap />,
+  },
+  {
     path: "/modulos/:module/:course/aula",
     element: <Lesson />,
   },
   {
     path: "/cases",
     element: <Cases />,
-  },
-  {
-    path: "/roadmap",
-    element: <Roadmap />,
   },
 ]);
 

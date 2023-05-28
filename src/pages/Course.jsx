@@ -52,9 +52,12 @@ function Course() {
         </div>
         <div className="flex justify-end items-end w-full mt-10">
           <div className="flex flex-col justify-center items-center gap-4">
-            <button className="bg-[#5301A1] py-4 px-6 rounded text-white font-semibold">
+            <Link
+              to={`/modulos/${module}/roadmap`}
+              className="bg-[#5301A1] py-4 px-6 rounded text-white font-semibold"
+            >
               Roadmap {module}
-            </button>
+            </Link>
             <span className="text-white text-center text-sm">
               <b>Iniciante?</b> Acesse o roadmap <br />e saiba por onde começar!
             </span>
