@@ -1,5 +1,3 @@
-import { slide as Menu } from "react-burger-menu";
-
 function App() {
   return (
     <div className="min-h-screen" style={{ backgroundImage: "/img/bg1.png" }}>
