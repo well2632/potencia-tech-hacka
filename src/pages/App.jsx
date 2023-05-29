@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             Iniciar minha jornada
           </Link>
         </div>
+        <Footer />
       </div>
       <div className="flex-col  xl:hidden  w-screen h-screen flex justify-center items-center text-white gap-6">
         <img src="/svg/logo.svg" alt="logo" />
